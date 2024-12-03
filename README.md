@@ -22,7 +22,7 @@ cd role-management-app
 
 ## features
 
-# Role Management: Add, edit, and delete roles.
+'Role Management: Add, edit, and delete roles.'
 # Permissions: Assign specific permissions (Create, Read, Update, Delete) to each role.
 # Search: Easily search for roles by name.
 # Sort: Sort roles by name or permissions for better organization.
