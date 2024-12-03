@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Role Management Application
+## Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Role Management Application is a frontend app designed to manage roles and permissions. It allows users to create, edit, and delete roles while assigning specific permissions (Create, Read, Update, Delete) to each role. The app features a clean, responsive UI and simple interactions, making it easy to manage roles.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## SetUP
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Ensure you have the following installed:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Node.js (for running the development server)
+npm or yarn (for managing dependencies)
 
-### `npm test`
+### Installation
+### Clone the repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+git clone https://github.com/your-username/role-management-app.git
+cd role-management-app
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+.Role Management: Add, edit, and delete roles.
+.Permissions: Assign specific permissions (Create, Read, Update, Delete) to each role.
+.Search: Easily search for roles by name.
+.Sort: Sort roles by name or permissions for better organization.
+.Responsive Design: The app adapts to various screen sizes.
+.Hover Effect: Table rows highlight on hover for a better user experience.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## how to use
 
-### `npm run eject`
+## Once the app is running, you can:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+.Create a Role: Click the "Create Role +" button, enter the role name, and assign permissions.
+.Edit a Role: Click the "Edit" button next to the role you want to modify.
+.Delete a Role: Click the "Delete" button to remove a role.
+.Search for Roles: Use the search bar at the top to filter roles by name.
+.Sort Roles: Click on the column headers to sort the roles by name or permissions.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
